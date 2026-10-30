@@ -1,4 +1,5 @@
 import "./About.css";
+import fullPortrait from "../images/thelma full.jpeg";
 
 const skills = [
   { h: "UI", t: "Interactive design, design systems and style guides" },
@@ -29,10 +30,10 @@ export default function About() {
       <section className="ab" id="about">
         <h2>About</h2>
         <div className="ab-grid">
-          <p className="ab-lead">
-            I design apps and websites people find easy to use. I start with research, map the flows in wireframes,
-            then build the visuals and a design system developers can work from.
-          </p>
+          <figure className="ab-photo">
+            <img src={fullPortrait} alt="Thelma Stephen standing in a black suit" loading="lazy" />
+            <figcaption>Thoughtful design, from the first conversation to the final handoff.</figcaption>
+          </figure>
           <dl className="skills">
             {skills.map((s) => (
               <div key={s.h}><dt>{s.h}</dt><dd>{s.t}</dd></div>

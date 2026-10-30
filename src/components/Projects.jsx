@@ -1,4 +1,5 @@
 import "./Projects.css";
+import portrait from "../images/thelma potrait.jpeg";
 
 const B = "https://mir-s3-cdn-cf.behance.net/projects/404/";
 const G = "https://www.behance.net/gallery/";
@@ -16,15 +17,37 @@ export default function Projects() {
   return (
     <>
       <section className="hero">
-        <p className="avail"><span /> Available for freelance and full-time work</p>
-        <h1>Thelma Stephen</h1>
-        <p className="sub">
-          Product designer in Port Harcourt, Nigeria. I research, wireframe and design apps and websites,
-          currently leading design on DoorGrab, a four-platform food delivery product.
-        </p>
-        <div className="hero-cta">
-          <a className="btn-lime" href="#work">See my work</a>
-          <a className="btn-ghost" href="#contact">Get in touch</a>
+        <div className="hero-copy">
+          <p className="avail"><span /> Available for freelance and full-time work</p>
+          <p className="hero-role">Product designer</p>
+          <h1>Thelma Stephen</h1>
+          <div className="sub">
+            <p>
+              If your company is still struggling to make a statement in the marketplace, or you’re a startup
+              building your audience and chasing visibility, I’m the right person for you.
+            </p>
+            <p>
+              I’m your design therapist. I listen first, then I get to the root of what’s holding your product
+              back. Whether it’s a muddled user experience, a brand that doesn’t connect, or an idea that hasn’t
+              found its shape yet, I help you work through it and come out clearer and stronger.
+            </p>
+            <p>
+              I bring your ideas to life through design. I start with research to understand your users and your
+              market, then move through wireframes, design systems, and high-fidelity mockups, so what you end up
+              with is not just good-looking but purposeful, consistent, and built to scale.
+            </p>
+            <p>
+              Good design does more than decorate. It helps your business stand out, builds trust with your
+              audience, and makes a lasting first impression. That’s what I do for the businesses I work with.
+            </p>
+          </div>
+          <div className="hero-cta">
+            <a className="btn-lime" href="#work">See my work</a>
+            <a className="btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div className="hero-portrait">
+          <img src={portrait} alt="Thelma Stephen, product designer" />
         </div>
       </section>
       <section className="work" id="work">

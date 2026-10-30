@@ -1,0 +1,8 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Space Grotesk",system-ui,sans-serif;background:#0a0a0a;color:#fff;-webkit-font-smoothing:antialiased}
+.placeholder{min-height:60vh;display:grid;place-content:center;text-align:center;gap:12px;padding:24px}
+.placeholder h1{font-size:clamp(32px,6vw,64px)}
+.placeholder p{color:#8a8a8a}
+html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:84px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

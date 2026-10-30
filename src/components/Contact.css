@@ -1,0 +1,13 @@
+.ct{max-width:1200px;margin:0 auto;padding:72px 20px;border-top:1px solid #1d1d1d;display:grid;gap:48px}
+.ct h2{font-size:clamp(32px,5vw,56px);letter-spacing:-.03em;margin-bottom:20px}
+.ct p{color:#a6a6a6;line-height:1.5;max-width:420px;font-size:18px}
+.ct ul{list-style:none;display:grid;gap:12px;margin-top:28px}
+.ct li a{color:#fff;font-size:18px}
+.ct li a:hover{color:#d9f06f}
+.ct form{display:grid;gap:20px}
+.ct label{display:grid;gap:8px;color:#a6a6a6;font-size:15px}
+.ct input,.ct textarea{font:inherit;color:#fff;background:#141414;border:1px solid #2a2a2a;border-radius:12px;padding:14px 16px}
+.ct input:focus,.ct textarea:focus{outline:2px solid #d9f06f;outline-offset:1px;border-color:transparent}
+.ct button{justify-self:start;font:inherit;font-weight:600;background:#d9f06f;color:#14160a;border:0;border-radius:999px;padding:14px 28px;cursor:pointer}
+.ct button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+@media(min-width:900px){.ct{grid-template-columns:1fr 1fr;padding:96px 40px;gap:80px}}

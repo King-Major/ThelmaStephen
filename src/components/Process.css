@@ -1,0 +1,8 @@
+.pr{max-width:1200px;margin:0 auto;padding:72px 20px;border-top:1px solid #1d1d1d}
+.pr h2{font-size:28px;margin-bottom:32px}
+.pr-list{list-style:none;display:grid;gap:32px}
+.pr-list li{padding-top:20px;border-top:1px solid #2a2a2a}
+.pr-n{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:#d9f06f;color:#14160a;font-weight:700;margin-bottom:16px}
+.pr-list h3{font-size:20px;margin-bottom:8px}
+.pr-list p{color:#a6a6a6;line-height:1.5;max-width:300px}
+@media(min-width:760px){.pr{padding:96px 40px}.pr-list{grid-template-columns:repeat(4,1fr)}}
